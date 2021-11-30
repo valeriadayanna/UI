@@ -10,45 +10,55 @@
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
         android:text="Principal"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="120dp"
-        tools:layout_editor_absoluteY="66dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/lblNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
         android:text="Nombre:"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="178dp"
-        tools:layout_editor_absoluteY="146dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <TextView
         android:id="@+id/lblGenero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
         android:text="Género:"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="178dp"
-        tools:layout_editor_absoluteY="217dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblNombre" />
 
     <TextView
         android:id="@+id/lblFecha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
         android:text="Fecha Nac:"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="171dp"
-        tools:layout_editor_absoluteY="308dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblGenero" />
 
     <TextView
         android:id="@+id/lblTelefono"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:layout_marginTop="80dp"
+        android:text="Teléfono"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="382dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblFecha" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

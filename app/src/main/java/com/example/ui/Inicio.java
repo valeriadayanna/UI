@@ -18,7 +18,7 @@ public class Inicio extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inicio);
         Bundle bundle = this.getIntent().getExtras();
-        Persona persona= (Persona) bundle.getSerializable("Usuario");
+        Persona persona= (Persona) bundle.getSerializable("Persona");
         lblNombre=(TextView) findViewById(R.id.lblNombre);
         lblFechaNac=(TextView) findViewById(R.id.lblFecha);
         lblTelefono=(TextView) findViewById(R.id.lblTelefono);

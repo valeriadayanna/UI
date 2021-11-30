@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         Persona persona=new Persona(txtNombre.getText().toString(),txtFechaNac.getText().toString(),genero,txtTelefono.getText().toString());
         Intent intent=new Intent(MainActivity.this, Inicio.class);
         Bundle bundle =new Bundle();
-        bundle.putSerializable("Datos",persona);
+        bundle.putSerializable("Persona",persona);
         intent.putExtras(bundle);
         startActivity(intent);
     }
